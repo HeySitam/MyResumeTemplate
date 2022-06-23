@@ -1,0 +1,189 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Sitam Sardar}} & Email: \href{mailto:}{sitam.dir@gmail.com}\\
+  \href{https://www.linkedin.com/in/sitam-sardar-10219b1b3/}{Linkedin Profile} & Mobile:~~~+919062717912 \\
+  \href{https://github.com/theDIRone}{Github: ~~github.com/theDIRone} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Government College of Engineering and Ceramic Technology}{Kolkata, India}
+      {Bachelor of Technology - Computer Science and Engineering;  CGPA: 9.68}{2019 - 2023}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Networking, Database Management System}}}
+    \resumeSubHeadingListEnd
+    
+%-----------SKILLS SUMMARY-----------------	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~JAVA, Kotlin, C}
+	\resumeSubItem{Android}{~~~~~~~~~MVVM, Retrofit, Android Jetpack Architecture Components, Coroutines and Flow}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~Android Studio, Gradle, Postman, GIT, Github, }
+	\resumeSubItem{Platforms}{~~~~~~~Linux(Ubuntu), Windows, Firebase}
+	\resumeSubItem{Databases}{~~~~~~~Firebase Firestore, Firebase Realtime-DB, SQL}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+
+%-----------EXPERIENCE-----------------
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{\href{https://drive.google.com/file/d/1gvCAmlxEtJ7FoAtb9XsxjJYvsi753pvS/view?usp=sharing}{Wekit Solutions}}{Remote}
+    {Android Developer (Internship)}{Nov 2021 - Mar 2022}
+    \resumeItemListStart
+        \resumeItem{Project Completion}
+          { Developed \textbf{60\%} of the android end of an e-learning app, named \textbf{Medgag} using \textbf{Kotlin} single handedly.}
+          \resumeItem{Funtionality Implemented}
+          {Implemented \textbf{API Authentication} using \textbf{Retrofit} and \textbf{Shared Pref}. Added some \textbf{Quiz functionality}, \textbf{Doc reader functionality}(not PDf viewer) etc followed by \textbf{MVVM} architecture and \textbf{Modern Android Development} techniques.}
+      \resumeItemListEnd
+\vspace{0pt}
+    \resumeSubheading
+		{\href{https://drive.google.com/file/d/1Nh1a3UPI5Z-hdJ3BCE9LSDUcIjIGyPAH/view?usp=sharing}{Google Developer Student Clubs}}{Hybrid-Remote}
+		{Android Studyjam Facilitator (Full-time, App-team Lead)}{Nov 2021 -  Jan 2022}
+		\resumeItemListStart
+        \resumeItem{Activities}
+          {Here in this time period, took \textbf{3} online session on \textbf{Android Development} to help and guide students to kickstart their android journey. Also managed a team to make an \textbf{University App} which was featured by \textbf{Google Dev Team} }
+		\resumeItemListEnd
+\vspace{0pt}
+    \resumeSubheading
+		{\href{https://drive.google.com/file/d/1f9h1l1ab52v0kD9IjBJ_1-0rmonwHNaQ/view?usp=sharing}{applex.in}}{remote}
+		{Android Developer (Internship)}{Feb 2021 -  April 2021}
+		\resumeItemListStart
+         \resumeItem{Project}
+          { Worked with team to developed the android end of an e-commerce app which was going to be an Integration of Utsav App, using \textbf{java}.}
+          \resumeItem{Funtionality Implemented}
+          {Implemented "Add Cart" functionality with \textbf{Firebase Firestore}. Also have fixed some bugs of my other team mates and made some UI portions better with \textbf{XML}.}
+		\resumeItemListEnd
+\vspace{0pt}
+    \resumeSubheading
+		{\href{https://auth.geeksforgeeks.org/user/the_dir_one/articles}{Geeks for Geeks}}{remote}
+		{Technical Content Writer (Internship)}{Dec 2020 -  Feb 2021}
+		\resumeItemListStart
+        \resumeItem{publications}
+          {Here during the internship time I have written \textbf{7 articles}. Among them 3 was on \textbf{Android} and 4 was on \textbf{Java} }
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{\href{https://github.com/theDIRone/CovidHelp}{CovidHelp}}{ This application is a treasure of all types of covid-resources like bed, oxygen, plasma/blood, test resources, medicine, doctors' information, vaccination information, and many many more. An android app to help people. Tech: \textbf{Android, Kotlin, XML, Firebase(Auth, Firestore), Volley, Retrofit, Notification, Coroutines}}
+\vspace{2pt}
+\resumeSubItem{\href{https://play.google.com/store/apps/details?id=com.adex11.android.sastaGoldari}{Sasta-Goldari}}{A one-sided \textbf{e-commerce} application for selling grocery items in local areas and published in \textbf{PlayStore}. Tech: \textbf{Android, Java, XML, Firebase}}
+\vspace{2pt}
+\resumeSubItem{\href{https://github.com/ByteMonk-GCECT/GCECT-APP}{GCECT-APP}}{(On-Going) An University app to help our college community also featured by Google Dev Team during Android Studyjam Facilitator program. Tech: \textbf{Android, Kotlin, XML, Android Architecture Components, Firebase, Glide}}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Open Source Activities}
+\resumeSubHeadingListStart
+\vspace{0pt}
+\resumeSubheading
+		{GirlScript Summer of Code}{}
+		{\textbf{Project Admin:} Maintained the selected project, \textbf{GCECT-APP} and guided contributors }{Feb 2022 -  May 2022}
+\vspace{0pt}
+\resumeSubheading
+		{Hacktoberfest 2021}{}
+		{\textbf{Project Admin \& Mentor:} Maintained the project, \textbf{CovidHelp} and guided contributors }{Oct 2022}
+\vspace{0pt}
+\resumeSubheading
+		{GirlScript Summer of Code}{}
+		{Contributor: Contributed on \textbf{3 android projects} and got rank \textbf{101} among \textbf{8000+} contributors }{Feb 2021 -  May 2021}
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {\href{https://gdsc.community.dev/government-college-of-engineering-ceramic-technology-kolkata/}{App Lead at Google Developer Student Clubs, GCECT} and \href{https://bytemonk.gcect.in/}{ByteMonk-GCECT}}{Kolkata}
+    {Given guidance and one-on-one mentorship students for kickstarting their android  Journey}{Aug 2021 - Present}
+
+\resumeSubHeadingListEnd
+
+\end{document}
